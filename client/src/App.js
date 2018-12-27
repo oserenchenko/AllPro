@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import './App.css';
 import Nav from "./components/Nav";
 import Jumbo from "./components/Jumbo";
+import Gallery from "./pages/Gallery";
 
 
 class App extends Component {
@@ -12,12 +13,9 @@ class App extends Component {
       <Router>
       <div>
         <Nav />
-        <Jumbo />
         <Switch>
-          {/* <Route exact path="/" component={} />
-          <Route exact path="/books" component={} />
-          <Route exact path="/books/:id" component={} />
-          <Route component={NoMatch} /> */}
+          <Route exact path="/" component={Jumbo} />
+          <Route exact path="/gallery" component={Gallery} />
         </Switch>
       </div>
     </Router>

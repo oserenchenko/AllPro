@@ -14,8 +14,10 @@
   height: 200px;
   margin: 0 auto;
   /* margin-top: 100px; */
-  color: rgb(219,190,118);
-  background-color: rgba(53, 52, 52, .7);
+  /* color: rgb(219,190,118); */
+  color: rgb(53, 52, 52);
+  background-color: rgba(254, 254, 254, .6);
+  /* background-color: rgba(53, 52, 52, .7); */
   padding: 20px;
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
