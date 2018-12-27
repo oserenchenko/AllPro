@@ -1,0 +1,11 @@
+.navbar {
+  background-color: rgb(53, 52, 52) !important;
+}
+
+.nav-link {
+  color: rgb(173,206,228)!important;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-right: 50px;
+}
