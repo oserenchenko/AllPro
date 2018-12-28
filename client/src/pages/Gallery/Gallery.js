@@ -1,11 +1,16 @@
-import React from "react";
-import GalleryCategory from "../../components/GalleryCategories"
+import React, { Component } from 'react';
+import Carousel from "../../components/Carousel";
+import CarouselItem from "../../components/CarouselItem";
 
-const Gallery = () => (
-  <div>
-  <GalleryCategory></GalleryCategory>
-  </div>
+class Gallery extends Component {
 
-)
+  render () {
+    return (
+      <div>
+      <Carousel category="Kitchen" carouselItem={<CarouselItem image={require("../../images/white_kitchen.jpg")}></CarouselItem>} />
+    </div>
+    )
+  }
+}
 
 export default Gallery;
